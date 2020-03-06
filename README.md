@@ -1,7 +1,9 @@
-### TO create self-signed cert  and RUN APP
-1 - run './self-signed.sh'  you cane chnge domane name ex: elbdrawy in file
-2- run 'docker-compose up'
- 
+### TO create a self-signed cert  and RUN APP
+```
+1 - run './self-signed.sh'  you cane change domain name ex: elbdrawy in file
+2 - run 'docker-compose up '
+3 - Open Browser enter http://elbdrawy.com Or https://elbdrawy.com
+```
 
 ### GraphQL deep dive
 
