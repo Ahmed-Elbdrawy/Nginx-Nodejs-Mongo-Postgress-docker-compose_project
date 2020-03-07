@@ -1,3 +1,23 @@
+## Prerequisites
+```
+To deploy the app you need to install docker, docker-compose
+
+add new record in /etc/hosts "127.0.0.1 elbdrawy.com"
+```
+
+### Installing
+
+To get the app running
+
+```
+git clone https://github.com/Ahmed-Elbdrawy/Nginx-Nodejs-Mongo-Postgress-docker-compose_project.git
+docker-compose up -d --force-recreate
+```
+
+### Testing
+- open https://elbdrawy.com  
+
+
 ### TO create a self-signed cert  and RUN APP
 ```
 1 - run './self-signed.sh'  you cane change domain name ex: elbdrawy in file
