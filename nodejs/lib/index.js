@@ -50,7 +50,7 @@ MongoClient.connect(mgConfig.url, (err, mPool) => {
       context: { pgPool, mPool, loaders }
     })(req, res);
   });
-  app.use('/', (req, res) => {    // for test node root url
+  app.use('/dirdeny', (req, res) => {    // for test node root url
     res.send('hello')
   })
 
